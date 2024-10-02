@@ -1,0 +1,209 @@
+
+/* App (Home) Component */
+
+.App {
+  background-color: #dfcdb6;
+  width: 100%;
+  color:#f0f0f0;
+}
+
+.App_Header{
+  position:relative;
+  background: rgba(248, 30, 30, 0.555); /* Warna semi-transparan */
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;  
+  width: 100%; /* Atur sesuai keinginan Anda */
+  color: #fafafa; /* Warna teks */
+  
+}
+
+.App_inner_header{
+  position: relative;
+  left: 20px;
+  background: rgba(235, 15, 15, 0.555); /* Warna semi-transparan */
+  border-radius: 30px;
+  text-align: left;
+  font-size: large; 
+  padding: 20px;
+  width: 60%;
+}
+
+.Home_BG{
+  background-image: url(Assets/Home_BG_New1.jpg);
+  background-position: left;
+  padding: 30px;
+  
+}
+
+/* App (Home) Component */
+
+/* About Us Component */
+
+.AboutUs{
+  background-color: #dfcdb6;
+  width: 100%;
+  height: 100%;
+}
+
+.AboutUsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+.PetaToko {
+  width: 40%;
+  height: calc(100vh - 400px); /* Adjust to fit the height */
+  border-radius: 0 30px 30px 0;
+}
+
+.AboutUsContent {
+  background: rgba(248, 30, 30, 0.555); /* Semi-transparent background */
+  width: 55%; /* Adjust width as needed */
+  padding: 30px;
+  border-radius: 30px 30px 30px 30px  ;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.About_Us_Text {
+  background: rgba(248, 30, 30, 0.555);
+  border-radius: 10px;
+  padding: 30px;
+  color: #fafafa;
+  width: 40%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.About_Us_Text p {
+  margin-bottom: 10px;
+}
+
+.IconTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+.about-us-icon {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.IconStyle {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.TextContainer p {
+  margin: 5px 0;
+}
+
+/* About Us Component */
+
+/* NavBar */
+
+.top_nav__menu{
+  display:flex;
+  justify-content:space-around;
+  padding: 15px 0 ;
+  position: relative;
+  width: 100%; /* Atur sesuai keinginan Anda */
+  height: 100%;
+  background: rgba(235, 15, 15, 0.7); /* Warna semi-transparan */
+  color: #fafafa; /* Warna teks */
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.top_nav__menu a {
+  color: #fafafa;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* NavBar */
+
+/* Halaman Produk */
+.ProductPage{
+  background-color: #dfcdb6;
+  width: 100%;
+}
+
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product_container {
+  background: rgba(248, 30, 30, 0.555);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.Header_Product{
+  padding: 0px 0 0px 0;
+  text-align: center;
+  position: static;
+  top: 0%;
+  left: 100%;
+  width: 100%; /* Atur sesuai keinginan Anda */
+  background: rgba(248, 30, 30, 0.555); /* Warna semi-transparan */
+  backdrop-filter: blur(18px); /* Efek blur */
+  border-radius: 0px;
+  color: #fafafa; /* Warna teks */
+}
+  
+.Product_isi{
+  padding: 15px;
+  color: #fafafa;
+}
+
+.foto_product{
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #fafafa;
+
+}
+
+.Keterangan_product{
+  font-size: 14px;
+  color: #f0e68c;
+}
+
+/* Footer Halaman */
+
+.App-footer {
+  position:relative;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Footer Halaman */
+
+/* dll. / ? */
+.App_link {
+  color: #61dafb;
+  font-size: larger;
+  font-family: cursive;
+  font-weight: bold;
+  align-self: center;
+  border: none;
+  padding: 30px 0 30px 0;
+  background-color:transparent;
+  
+}
+
+/* dll. / ? */
