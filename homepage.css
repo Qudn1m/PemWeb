@@ -1,0 +1,195 @@
+/* HALAMAN KESELURUHAN */
+body {
+    font-family: sans-serif,sans-serif;
+    margin: 0;
+    background-color: #ffffff; 
+    color: #000000; 
+  
+}
+
+a {  /* TEXT NAVBAR */
+    max-width: 1200px;
+    text-decoration: none;
+    color: #ffffff; /* Light link color */
+}
+
+.container2 {  /* TEXT BERGABUNGLAH BERSAMA KOMUNITAS KAMI */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #000000;
+}
+
+/* Desain Header (Navbar) */
+header {
+    background-color: #081B1C; 
+    padding: 0 20px;
+
+}
+
+/* Posisi Header (Navbar) */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* Desain logo Header (Navbar) */
+header .logo img {
+    height: 70px;
+    align-items: end;
+}
+/* Desain list (home singup dan login) */
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Spasi text navbar (home signup dan login */
+header nav li {
+    margin-left: 30px;
+}
+
+/* Hero Section Styles */
+
+/* Desain banner */
+.hero {
+    background-image: url("background_gunung.png"); /* Dari gambar */
+    background-size: cover;
+    background-position: center;
+    min-height: 614px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Desain text banner */
+.hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    text-align: left;
+    font-size: 48px;
+     margin-bottom: 0;
+    color: #ffffff; /* White text on hero image */
+    opacity: 0.8;
+}
+
+/* Style Pengenalan*/
+.features {
+    padding: 80px 0;
+    text-align: center;
+}
+/*teks bergabunglah bersama komintas kami*/
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+   
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+.feature {
+    padding: 30px;
+    border-radius: 10px;
+    border: px solid #081B1C;
+    background-color: #fefefe; /* Dark grey background for features */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.feature:hover {
+    transform: translateY(-10px); /* Lift up on hover */
+}
+
+.feature img {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+/* Call to Action Styles */  
+.call-to-action {
+    background-image: url("foto_footer.png"); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+    
+}
+
+
+.call-to-action h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #ffffff; /* White text on CTA image */
+}
+
+
+/*Button*/
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #205a3c;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #081B1C;
+    padding: 20px 0;
+    color: #ffffff; 
+    
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+}
+
+footer .contact h3, footer .address h3 {
+    margin-bottom: 20px;
+    padding-left: 30px;
+
+   
+}
+
+footer .social-media {
+    list-style: none;
+    padding-left: 30px;
+    margin: 0;
+    width: 30px;
+    display: flex;
+    grid-gap: 10px;
+}
+footer .address img {
+    height: 70px;
+    margin-right: 15
+    px;
+
+}
+
+.alamat{
+    margin-top: 20px;
+    text-align: right;
+    padding-left: 1;
+    font-size: 14px;
+}
+
+
+
+
+    
+
+
