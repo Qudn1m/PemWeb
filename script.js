@@ -2,11 +2,11 @@ const apiKey = 'ba857300bdc774a44b98bf9a7ad3c97a';
 
 document.getElementById('getWeatherBtn').addEventListener('click', () => {
     const city = document.getElementById('cityInput').value;
-    if (city) {
-        getWeather(city);
-    } else {
+    if (city.trim() === '') {
         alert('Please enter a city name.');
+        return;
     }
+    getWeather(city);
 });
 
 async function getWeather(city) {
