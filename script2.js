@@ -1,7 +1,7 @@
 const apiKey = 'ba857300bdc774a44b98bf9a7ad3c97a';
 
 document.getElementById('getWeatherBtn').addEventListener('click', () => {
-    const city = 'Gunung Bromo';  // Hardcode the mountain's name here
+    const city = 'Gunung Bromo'; 
     getWeather(city);
 });
 
