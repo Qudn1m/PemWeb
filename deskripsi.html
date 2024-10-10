@@ -26,34 +26,6 @@
         </div>
     </header>
     <main>
-        
-        
-        
-        <! –– API cuacanya ada 2, pilih 1 yang bisa yg lain hapus––>
-
-        
-        <! –– API cuaca1––>
-<div class="container_cuaca">
-        <h1>Weather App</h1>
-        <input type="text" id="cityInput" placeholder="Enter City Name">
-        <button id="getWeatherBtn">Get Weather</button>
-        <div id="weatherResult"></div>
-    </div>
-    <script src="script.js"></script>
-        <! –– API cuaca1––>
-
-        
-         <! –– Weather API2 ––>
-        <div class="container_cuaca">
-            <h1>Weather App for Gunung Bromo</h1>
-            <button id="getWeatherBtn">Get Weather for Gunung Bromo</button>
-            <div id="weatherResult"></div>
-        </div>
-        <script src="script2.js"></script>
-        <! –– Weather API2 ––>
-
-        
-        
         <section class="main-content">
         <div class="image-container">
             <img src="foto_gunung_bromo.jpg" alt="Gunung Bromo">
@@ -63,10 +35,6 @@
                 <h1>Gunung Bromo</h1>
                 <p class="difficulty">Hard</p>
                 <p class="location">Probolinggo, Jawa Timur, Indonesia</p>
-            </div>
-
-            <div className="peta_bromo">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15806.180865283777!2d112.94271245984653!3d-7.94247207135211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd637aaab794a41%3A0xada40d36ecd2a5dd!2sMt%20Bromo!5e0!3m2!1sen!2sid!4v1728473681242!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -88,7 +56,15 @@
                 Mendaki Gunung Bromo adalah pengalaman yang menarik dan penuh tantangan. Perjalanan dimulai dengan melintasi lautan pasir yang luas, menciptakan suasana khas pegunungan. Ketika mendekati kawah, Anda akan merasakan aroma belerang dan melihat kawah aktif yang mengeluarkan asap. Pendakian ke puncak menawarkan pemandangan spektakuler, terutama saat matahari terbit. Langit berwarna-warni akan menyambut Anda, sementara Gunung Bromo, Gunung Batok, dan Gunung Semeru menciptakan panorama yang menakjubkan.
             </p>
         </div>
-      
+        <div class="peta_bromo">
+            <iframe class="peta_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15806.180865283777!2d112.94271245984653!3d-7.94247207135211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd637aaab794a41%3A0xada40d36ecd2a5dd!2sMt%20Bromo!5e0!3m2!1sen!2sid!4v1728473681242!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div class="container_cuaca">
+            <div id="weatherResult"></div>
+        </div>
+            <script src="deskripsi.js"></script>
+               
     </section>
     </main>
     
