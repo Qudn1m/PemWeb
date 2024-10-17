@@ -1,0 +1,41 @@
+.comment-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.comment-section h2 {
+  text-align: center;
+}
+
+.comment-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-section input,
+.comment-section textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.comment-section button {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+.comments-display .comment {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.comments-display .comment h4 {
+  margin: 0;
+}
+
+.comments-display .comment span {
+  font-size: 12px;
+  color: #777;
+}
